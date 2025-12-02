@@ -1,5 +1,5 @@
-import createApp from './app.js'
 import { isDevEnv } from './constants.js'
+import createApp from './app.js'
 import { checkDbConnection } from './models/connection.js'
 import appLogger from './appLogger.js'
 import PresenceSystem from './Socket/PresenceSystem.js'
